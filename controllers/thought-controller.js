@@ -67,6 +67,18 @@ const thoughtController = {
         })
         .catch(err => res.json(err));
     },
+// update thought by id
+updateThought({ params, body }, res) {
+    Thought.findOneAndUpdate({ _id: params.id }, body, { new: true, runValidators: true })
+    .then(dbThoughtData => {
+        if (!dbThoughtData) {
+            res.status(404).json({ message: 'No thought found with this id' });
+            return;
+        }
+        res.json(dbThoughtData);
+    })
+    .catch(err => res.json(err));
+},
 
 // delete thought by id
 deleteThought({ params }, res) {
@@ -96,7 +108,7 @@ deleteThought({ params }, res) {
 
 // create a reaction stored in a singular thought
 createReaction({params, body}, res) {
-    Thought.findOneAndUpdate9(
+    Thought.findOneAndUpdate(
     { _id: params.thoughtId },
     { $push: { reactions: body } },
     { new: true, runValidators: true}
@@ -115,6 +127,7 @@ createReaction({params, body}, res) {
     })
     .catch(err => res.status(400).json(err))
     },
+    
 
 // delete a reaction by id value
 deleteReaction({ params }, res) {
