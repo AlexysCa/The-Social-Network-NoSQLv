@@ -81,25 +81,14 @@ updateThought({ params, body }, res) {
 },
 
 // delete thought by id
-deleteThought({ params }, res) {
+deleteThought({ params, body }, res) {
     Thought.findOneAndDelete({ _id: params.id })
     .then(dbThoughtData => {
         if (!dbThoughtData) {
             res.status(404).json({ message: 'No thought found with that id' });
             return;
         }
-        return User.findOneAndUpdate(
-            { _id: params.userId },
-            { $pull: { thoughts: params.Id } },
-            { new: true }
-        )
-    })
-    .then(dbUserData => {
-        if (!dbUserData) {
-            res.status(404).json({ message: 'No user found with this id' });
-            return;
-        }
-        res.json(dbUserData);
+        res.json(dbThoughtData);
     })
     .catch(err => res.json(err));
 },

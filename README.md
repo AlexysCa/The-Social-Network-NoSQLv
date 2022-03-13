@@ -19,4 +19,7 @@ https://drive.google.com/file/d/1AhsxfmUIU2au6hwsSm4Fi9yzZ-1OWq1i/view
 https://drive.google.com/file/d/1eGTI3Ev9gg7LEVZYlP4QmfPaPF2fAgpK/view
 
 
+### Thought GET, POST, PUT, DELETE
+https://drive.google.com/file/d/1ouLbJJ1K9l0mghxHhxo2bALbpUp8Ma18/view
+
 
