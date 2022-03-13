@@ -25,6 +25,9 @@ https://drive.google.com/file/d/1ouLbJJ1K9l0mghxHhxo2bALbpUp8Ma18/view
 ### Friends POST & DELETE
 https://drive.google.com/file/d/1_T4cf8e2Q53dOQ5_eX8uP7d8v5RdFPVz/view
 
+### Reactions POST & DELETE
+https://drive.google.com/file/d/1jMT7cHF9yhrBY9G6TELkJMlG_jg-taz8/view
+
 
 
 
