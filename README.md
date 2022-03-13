@@ -10,6 +10,10 @@ A social media startup wants an API for their social netowkrk that uses a NoSQL 
 * Mongoose ODM
 * Javascript
 
+### How to Start up App
+
+npm start
+
 # App Videos
 
 ### Server Starting & Mongoose models synced to MonogoDb
@@ -27,6 +31,9 @@ https://drive.google.com/file/d/1_T4cf8e2Q53dOQ5_eX8uP7d8v5RdFPVz/view
 
 ### Reactions POST & DELETE
 https://drive.google.com/file/d/1jMT7cHF9yhrBY9G6TELkJMlG_jg-taz8/view
+
+### BONUS App DELETE users associated thought when user is deleted
+https://drive.google.com/file/d/1qusScpARkZJLuvjQyUpKydxLop6J8CQP/view
 
 
 
