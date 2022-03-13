@@ -22,4 +22,9 @@ https://drive.google.com/file/d/1eGTI3Ev9gg7LEVZYlP4QmfPaPF2fAgpK/view
 ### Thought GET, POST, PUT, DELETE
 https://drive.google.com/file/d/1ouLbJJ1K9l0mghxHhxo2bALbpUp8Ma18/view
 
+### Friends POST & DELETE
+https://drive.google.com/file/d/1_T4cf8e2Q53dOQ5_eX8uP7d8v5RdFPVz/view
+
+
+
 
