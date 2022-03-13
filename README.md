@@ -10,4 +10,9 @@ A social media startup wants an API for their social netowkrk that uses a NoSQL 
 * Mongoose ODM
 * Javascript
 
-### Walk through functionality video 
+# App Videos
+
+### Server Starting & Mongoose models synced to MonogoDb
+<iframe src="https://drive.google.com/file/d/1AhsxfmUIU2au6hwsSm4Fi9yzZ-1OWq1i/preview" width="640" height="480"></iframe>
+
+
