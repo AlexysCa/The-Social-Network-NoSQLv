@@ -13,6 +13,10 @@ A social media startup wants an API for their social netowkrk that uses a NoSQL 
 # App Videos
 
 ### Server Starting & Mongoose models synced to MonogoDb
-<iframe src="https://drive.google.com/file/d/1AhsxfmUIU2au6hwsSm4Fi9yzZ-1OWq1i/preview" width="640" height="480"></iframe>
+https://drive.google.com/file/d/1AhsxfmUIU2au6hwsSm4Fi9yzZ-1OWq1i/view
+
+### User GET, POST, PUT, DELETE
+https://drive.google.com/file/d/1eGTI3Ev9gg7LEVZYlP4QmfPaPF2fAgpK/view
+
 
 
